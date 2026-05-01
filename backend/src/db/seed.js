@@ -18,7 +18,7 @@ try {
   const pw = bcrypt.hashSync('password123', 12);
 
   const users = [
-    { id: uuidv4(), name: 'Alex Johnson',  email: 'test@example.com',   color: '#6366f1' },
+    { id: uuidv4(), name: 'Ahmad Khan',  email: 'test@example.com',   color: '#6366f1' },
     { id: uuidv4(), name: 'Sarah Chen',    email: 'sarah@example.com',  color: '#ec4899' },
     { id: uuidv4(), name: 'Marcus Webb',   email: 'marcus@example.com', color: '#22c55e' },
     { id: uuidv4(), name: 'Priya Nair',    email: 'priya@example.com',  color: '#f97316' },
