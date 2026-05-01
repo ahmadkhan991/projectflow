@@ -1,8 +1,7 @@
 [build]
-builder = "nixpacks"
-buildCommand = "cd frontend && npm install && npm run build && cd ../backend && npm install"
+builder = "dockerfile"
 
 [deploy]
-startCommand = "cd backend && node src/server.js"
+startCommand = "node src/server.js"
 restartPolicyType = "on_failure"
 restartPolicyMaxRetries = 3
